@@ -1,0 +1,41 @@
+header {
+    background: linear-gradient(320deg, rgba(255,253,252,1) 52%, rgb(250, 241, 230) 71%, rgb(238, 215, 248) 100%);
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        column-gap: 30px;
+    }
+
+    a {
+        color: #000;
+    }
+}
+
+#headerContent {
+    display: flex;
+    margin-top: 70px;
+    
+    #headerPhoto {
+        flex: 1;
+    }
+}
+
+#headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+    
+
+    h1 {
+        font-size: 4.5rem;
+    }
+}
