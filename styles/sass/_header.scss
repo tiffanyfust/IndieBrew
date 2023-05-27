@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(320deg, rgba(255,253,252,1) 52%, rgb(250, 241, 230) 71%, rgb(238, 215, 248) 100%);
+    background: linear-gradient(320deg, rgba(255,253,252,1) 52%, rgb(250, 241, 230) 71%, rgb(237, 203, 246) 100%);
     min-height: 100vh;
 }
 
@@ -36,6 +36,27 @@ nav {
     
 
     h1 {
-        font-size: 4.5rem;
+        font-size: 4.4rem;
+    }
+
+    #headerIndieInfo {
+        font-size: 1.4rem;
+    }
+
+    p > span {
+        color: rgb(101, 69, 215);
+        font-weight: 700;
+    }
+}
+
+.getStartedButton {
+    color: #FFF;
+    background-color: rgb(101, 69, 215);
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+
+    span {
+        font-weight: 400;
     }
 }
